@@ -1,0 +1,9 @@
+{
+    "name": "website-backend",
+    "main": "app.js",
+    "scripts": {},
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0"
+    }
+}
