@@ -5,13 +5,6 @@ const pg = require('pg')
 const app = express()
 app.use(cors())
 
-const pool = new pg.Pool({
-    connectionString: process.env['DATABASE_URL'],
-    ssl: {
-        rejectUnauthorized: false,
-    },
-})
-
 app.get('/status', async (_, res) => {
     const client = new pg.Client({
         host: process.env['DB_HOST'],
