@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 const pool = new pg.Pool({
-    connectionString: process.env['DATABASE_URL'],
+    connectionString: 'foo',
     ssl: {
         rejectUnauthorized: false,
     },
