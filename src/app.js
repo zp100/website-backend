@@ -19,8 +19,8 @@ app.get('/status', async (_, res) => {
     await client.connect()
 
     const query_res = await client.query(`
-        select message
-        from Status
+        select "message"
+        from "Status"
         limit 1
     `)
     const status = query_res.rows[0]['message']
