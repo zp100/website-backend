@@ -5,16 +5,17 @@ const pg = require('pg')
 const app = express()
 app.use(cors())
 
+const pool = new pg.Pool({
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    database: process.env.DB_DATABASE,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    ssl: (process.env.DATABASE_URL ? { rejectUnauthorized: false } : undefined),
+})
+
 app.get('/status', async (_, res) => {
-    const client = new pg.Client({
-        host: process.env.DB_HOST,
-        port: process.env.DB_PORT,
-        database: process.env.DB_DATABASE,
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        ssl: (process.env.DATABASE_URL ? { rejectUnauthorized: false } : undefined),
-    })
-    await client.connect()
+    const client = await pool.connect()
 
     const query_res = await client.query(`
         select "message"
