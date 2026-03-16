@@ -1,20 +1,22 @@
-def remove_annotations(word: str) -> str:
-    return word.strip('$+^&!%')
+list_files = [
+    '2of12inf.txt',
+    'count_1w-50k.txt',
+]
 
 def wordlen(word: str) -> int:
     return len(word.strip())
 
-with open('2of12inf.txt', 'r') as file:
-    words_us = file.readlines()
-    words_us = [ remove_annotations(word) for word in words_us ]
+word_list = set()
+for list_file in list_files:
+    with open(list_file, 'r') as file:
+        new_words = set(file.readlines())
+    if len(word_list) > 0:
+        word_list = word_list.intersection(new_words)
+    else:
+        word_list = new_words
 
-with open('3of6game.txt', 'r') as file:
-    words_int = file.readlines()
-    words_int = [ remove_annotations(word) for word in words_int ]
-
-words_both = list(set(words_us).intersection(set(words_int)))
-words_both = [ word for word in words_both if wordlen(word) >= 4 ]
-words_both.sort()
+word_list = [ word.strip('$+^&!%') for word in word_list if wordlen(word) >= 4 ]
+word_list.sort()
 
 with open('word_list.txt', 'w') as file:
-    file.writelines(words_both)
+    file.writelines(word_list)
