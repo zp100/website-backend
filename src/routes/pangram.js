@@ -1,9 +1,12 @@
 const express = require('express')
 const fs = require('node:fs')
+const path = require('node:path')
 
 let word_list = []
 let puzzle_list = []
-fs.readFile('./src/routes/pangram/word_list.txt', 'utf8', (err, data) => {
+
+const word_list_path = path.join(process.cwd(), 'src/routes/pangram/word_list.txt')
+fs.readFile(word_list_path, 'utf8', (err, data) => {
     if (err) {
         console.error(err)
         return
@@ -21,6 +24,8 @@ fs.readFile('./src/routes/pangram/word_list.txt', 'utf8', (err, data) => {
         }
     })
     puzzle_list = Array.from(valid_puzzles)
+
+    console.log('/pangrams: Word list setup complete.')
 })
 
 const router = express.Router()
