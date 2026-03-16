@@ -15,7 +15,7 @@ for list_file in list_files:
     else:
         word_list = new_words
 
-word_list = [ word.strip('$+^&!%') for word in word_list if wordlen(word) >= 4 ]
+word_list = [ word.strip('$+^&!%') for word in word_list if wordlen(word) >= 3 ]
 word_list.sort()
 
 with open('word_list.txt', 'w') as file:

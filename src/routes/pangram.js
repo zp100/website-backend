@@ -2,6 +2,7 @@ const express = require('express')
 const fs = require('node:fs')
 const path = require('node:path')
 
+const min_len = 3
 let word_list = []
 let puzzle_list = []
 
@@ -32,6 +33,7 @@ const router = express.Router()
 
 router.get('/word_list', (_, res) => {
     res.send({
+        min_len,
         word_list,
         puzzle_list,
     })
