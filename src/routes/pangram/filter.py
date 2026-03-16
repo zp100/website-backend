@@ -1,6 +1,6 @@
 list_files = [
     '2of12inf.txt',
-    'count_1w-50k.txt',
+    'count_1w-100k.txt',
 ]
 
 def wordlen(word: str) -> int:
