@@ -1,13 +1,13 @@
 const cors = require('cors')
 const express = require('express')
 const home = require('./routes/home')
-const pangram = require('./routes/pangram')
+const pangrams = require('./routes/pangrams')
 const youtune = require('./routes/youtune')
 
 const app = express()
 app.use(cors())
 app.use('/', home)
-app.use('/pangram', pangram)
+app.use('/pangrams', pangrams)
 app.use('/youtune', youtune)
 
 app.listen(process.env.PORT ?? 8081, () => {

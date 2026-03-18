@@ -6,7 +6,7 @@ const min_len = 3
 let word_list = []
 let puzzle_list = []
 
-const word_list_path = path.join(process.cwd(), 'src/routes/pangram/word_list.txt')
+const word_list_path = path.join(process.cwd(), 'src/routes/pangrams/word_list.txt')
 fs.readFile(word_list_path, 'utf8', (err, data) => {
     if (err) {
         console.error(err)
