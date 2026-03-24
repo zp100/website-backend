@@ -14,7 +14,7 @@ fs.readFile(word_list_path, 'utf8', (err, data) => {
     }
 
     word_list = data.split('\n')
-    
+
     const valid_puzzles = new Set()
     word_list.forEach((word) => {
         const letters = new Set(word.split(''))
