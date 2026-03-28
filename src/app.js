@@ -10,6 +10,7 @@ app.use('/', home)
 app.use('/pangrams', pangrams)
 app.use('/youtune', youtune)
 
-app.listen(process.env.PORT ?? 8081, () => {
-    console.log('Started backend.')
+const port = process.env.PORT ?? 8081
+app.listen(port, () => {
+    console.log(`Started backend on port ${port}.`)
 })
