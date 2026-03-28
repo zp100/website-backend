@@ -41,22 +41,20 @@ router.get('/word_list', (_, res) => {
 router.get('/define/:word', async (req, res) => {
     const word = req.params['word']
     const dictionary_url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${process.env.DICTIONARY_API_KEY}`
-    let def_entry
+    let json
     try {
         const response = await fetch(dictionary_url)
-        const json = await response.json()
-        def_entry = json[0]
+        json = await response.json()
     } catch (e) {
         throw new Error(e.message)
     }
 
-    res.send({
-        headword: def_entry['hwi']['hw'],
-        stem: def_entry['meta']['stems'][0],
-        pronunciation: def_entry['hwi']['prs'][0]['mw'],
-        functional_label: def_entry['fl'],
-        def: def_entry['shortdef'][0]
-    })
+    const headword = json[0]['hwi']['hw']
+    const stem = json[0]['meta']['stems'][0]
+    const pronunciation = json[0]['hwi']['prs'][0]['mw']
+    const functional_label = json[0]['fl']
+    const definitions = json.filter((d) => d['meta']['stems'][0] === stem).map((d) => d['shortdef']).flat()
+    res.send({ headword, stem, pronunciation, functional_label, definitions })
 })
 
 module.exports = router
