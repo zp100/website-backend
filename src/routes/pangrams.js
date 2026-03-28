@@ -52,6 +52,7 @@ router.get('/define/:word', async (req, res) => {
 
     res.send({
         headword: def_entry['hwi']['hw'],
+        stem: def_entry['meta']['stems'][0],
         pronunciation: def_entry['hwi']['prs'][0]['mw'],
         functional_label: def_entry['fl'],
         def: def_entry['shortdef'][0]
