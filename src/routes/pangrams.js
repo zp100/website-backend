@@ -45,10 +45,17 @@ router.get('/define/:word', async (req, res) => {
     const json = await response.json()
 
     const summary = get_summary(json[0])
-    const definitions = json.filter((def) => {
-        const def_summary = get_summary(def)
-        return [ 'id', 'syllables', 'pronunciation', 'category' ].forEach((key) => def_summary[key] === summary[key])
-    }).map((def) => def['shortdef']).flat()
+    const definitions = json
+        .filter((def, index) => {
+            if (index === 0) {
+                return true
+            }
+
+            const def_summary = get_summary(def)
+            return [ 'id', 'syllables', 'pronunciation', 'category' ].every((key) => def_summary[key] === summary[key])
+        })
+        .map((def) => def['shortdef'])
+        .flat()
 
     res.send({ summary, definitions })
 })
@@ -56,9 +63,9 @@ router.get('/define/:word', async (req, res) => {
 function get_summary(def) {
     return {
         id: def['meta']['id'].split(':')[0],
-        syllables: def['hwi']['hw'],
-        pronunciation: def['hwi']['prs'][0]['mw'],
-        category: def['fl'],
+        syllables: def?.['hwi']?.['hw'],
+        pronunciation: def?.['hwi']?.['prs']?.[0]?.['mw'],
+        category: def?.['fl'],
     }
 }
 
