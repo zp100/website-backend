@@ -43,30 +43,16 @@ router.get('/define/:word', async (req, res) => {
     const dictionary_url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${process.env.DICTIONARY_API_KEY}`
     const response = await fetch(dictionary_url)
     const json = await response.json()
+    
+    const valid_defs = json.filter((def) => def.meta.stems.includes(word) && !def.cxs)
+    const variants = valid_defs.map((def) => ({
+        id: def.meta.id.split(':')[0],
+        pronunciation: def.hwi.prs?.[0]?.mw,
+        category: def.fl,
+        defs: def.shortdef,
+    }))
 
-    const summary = get_summary(json[0])
-    const definitions = json
-        .filter((def, index) => {
-            if (index === 0) {
-                return true
-            }
-
-            const def_summary = get_summary(def)
-            return [ 'id', 'syllables', 'pronunciation', 'category' ].every((key) => def_summary[key] === summary[key])
-        })
-        .map((def) => def['shortdef'])
-        .flat()
-
-    res.send({ summary, definitions })
+    res.send({ variants })
 })
-
-function get_summary(def) {
-    return {
-        id: def['meta']['id'].split(':')[0],
-        syllables: def?.['hwi']?.['hw'],
-        pronunciation: def?.['hwi']?.['prs']?.[0]?.['mw'],
-        category: def?.['fl'],
-    }
-}
 
 module.exports = router
