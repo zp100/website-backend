@@ -41,20 +41,27 @@ router.get('/word_list', (_, res) => {
 router.get('/define/:word', async (req, res) => {
     const word = req.params['word']
     const dictionary_url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${process.env.DICTIONARY_API_KEY}`
-    let json
-    try {
-        const response = await fetch(dictionary_url)
-        json = await response.json()
-    } catch (e) {
-        throw new Error(e.message)
-    }
+    const response = await fetch(dictionary_url)
+    const json = await response.json()
+    const main_def = json[0]
 
-    const headword = json[0]['hwi']['hw']
-    const stem = json[0]['meta']['stems'][0]
-    const pronunciation = json[0]['hwi']['prs'][0]['mw']
-    const functional_label = json[0]['fl']
-    const definitions = json.filter((d) => d['meta']['stems'][0] === stem).map((d) => d['shortdef']).flat()
-    res.send({ headword, stem, pronunciation, functional_label, definitions })
+    const id = get_id(main_def)
+    const definitions = json
+        .filter((def) => get_id(def) === id)
+        .map((def) => def['shortdef'])
+        .flat()
+
+    res.send({
+        id,
+        headword: main_def['hwi']['hw'],
+        pronunciation: main_def['hwi']['prs'][0]['mw'],
+        functional_label: main_def['fl'],
+        definitions,
+    })
 })
+
+function get_id(def) {
+    return def['meta']['id'].split(':')[0]
+}
 
 module.exports = router
