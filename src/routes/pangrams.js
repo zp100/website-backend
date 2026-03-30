@@ -44,12 +44,10 @@ router.get('/define/:word', async (req, res) => {
     const response = await fetch(dictionary_url)
     const json = await response.json()
 
-    const valid_defs = json.filter((def) => def.meta.id.split(':')[0] === word)
+    const valid_defs = json.filter((def) => def.meta.id.split(':')[0] === word && def.shortdef.length > 0)
     if (valid_defs.length === 0) {
-        const most_similar_def = json.find((def) => def.meta.stems.includes(word))
-        if (most_similar_def) {
-            valid_defs.push(most_similar_def)
-        }
+        const similar_defs = json.filter((def) => def.meta.stems.includes(word) && def.shortdef.length > 0)
+        valid_defs.push(...similar_defs)
     }
 
     const variants = valid_defs.map((def) => ({
