@@ -43,10 +43,11 @@ router.get('/define/:word', async (req, res) => {
     const dictionary_url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${process.env.DICTIONARY_API_KEY}`
     const response = await fetch(dictionary_url)
     const json = await response.json()
+    const defs = json.filter((def) => def.fl && def.shortdef.length > 0)
 
-    const valid_defs = json.filter((def) => def.meta.id.split(':')[0] === word && def.shortdef.length > 0)
+    const valid_defs = defs.filter((def) => def.meta.id.split(':')[0] === word)
     if (valid_defs.length === 0) {
-        const similar_defs = json.filter((def) => def.meta.stems.includes(word) && def.shortdef.length > 0)
+        const similar_defs = defs.filter((def) => def.meta.stems.includes(word))
         valid_defs.push(...similar_defs)
     }
 
