@@ -2,7 +2,7 @@ const express = require('express')
 const fs = require('node:fs')
 const path = require('node:path')
 
-const min_len = 3
+const min_len = 2
 let word_list = []
 let puzzle_list = []
 

@@ -1,6 +1,7 @@
 aah
 aardvark
 aardvarks
+ab
 aback
 abacus
 abacuses
@@ -324,6 +325,7 @@ abysmally
 abyss
 abyssal
 abysses
+ac
 acacia
 acacias
 academe
@@ -712,6 +714,7 @@ acutes
 acutest
 acyclovir
 acyl
+ad
 adage
 adages
 adagio
@@ -1372,6 +1375,7 @@ agronomists
 agronomy
 aground
 ague
+ah
 aha
 ahchoo
 ahead
@@ -1835,6 +1839,7 @@ alums
 alveolar
 alveolars
 always
+am
 amalgam
 amalgamate
 amalgamated
@@ -2083,6 +2088,7 @@ amygdala
 amygdalas
 amylase
 amyloid
+an
 anabolic
 anabolism
 anachronism
@@ -3404,6 +3410,7 @@ arty
 arugula
 arum
 arums
+as
 asana
 asanas
 asap
@@ -3745,6 +3752,7 @@ asymptotic
 asymptotically
 asynchronous
 asynchronously
+at
 atavism
 atavist
 atavistic
@@ -4134,6 +4142,7 @@ aux
 auxiliaries
 auxiliary
 auxin
+av
 avail
 availability
 available
@@ -4217,6 +4226,7 @@ avowing
 avows
 avuncular
 avuncularly
+aw
 await
 awaited
 awaiting
@@ -4268,6 +4278,7 @@ awns
 awoke
 awoken
 awry
+ax
 axe
 axed
 axes
@@ -5276,6 +5287,7 @@ bazooka
 bazookas
 bbl
 bdrm
+be
 beach
 beachcomber
 beachcombers
@@ -6057,7 +6069,9 @@ beyond
 beys
 bezel
 bezels
+bf
 bhaji
+bi
 biannual
 biannually
 bias
@@ -6504,6 +6518,8 @@ biyearly
 biz
 bizarre
 bizarrely
+bk
+bl
 blab
 blabbed
 blabber
@@ -8409,6 +8425,7 @@ brutes
 brutish
 brutishly
 brutishness
+bu
 bub
 bubble
 bubbled
@@ -9012,7 +9029,9 @@ buzzkills
 buzzword
 buzzwords
 buzzy
+bx
 bxs
+by
 bycatch
 bye
 byes
@@ -9044,6 +9063,7 @@ byways
 byword
 bywords
 byzantine
+ca
 cab
 cabal
 caballero
@@ -10402,6 +10422,7 @@ cayenne
 cays
 cayuse
 cayuses
+cc
 cease
 ceased
 ceasefire
@@ -10650,6 +10671,9 @@ cetacean
 cetaceans
 ceteris
 ceviche
+cf
+cg
+ch
 chad
 chador
 chadors
@@ -11826,6 +11850,8 @@ civilizes
 civilizing
 civilly
 civvies
+ck
+cl
 clack
 clacked
 clacking
@@ -12368,8 +12394,10 @@ clutter
 cluttered
 cluttering
 clutters
+cm
 cnidarian
 cnidarians
+co
 coach
 coached
 coaches
@@ -16301,8 +16329,11 @@ crystallizing
 crystallographic
 crystallography
 crystals
+cs
+ct
 ctn
 ctr
+cu
 cub
 cubbies
 cubby
@@ -16664,6 +16695,7 @@ cutup
 cutups
 cutworm
 cutworms
+cw
 cwt
 cyan
 cyanide
@@ -16747,6 +16779,7 @@ czarists
 czars
 d'Arezzo's
 d'Estaing's
+dB
 dab
 dabbed
 dabber
@@ -17091,7 +17124,10 @@ dazzlers
 dazzles
 dazzling
 dazzlingly
+db
 dbl
+dc
+dd
 dded
 dding
 dds
@@ -20561,6 +20597,7 @@ dizzying
 dizzyingly
 djellaba
 djellabas
+do
 doable
 dob
 dobbed
@@ -21830,8 +21867,10 @@ dystopi
 dystopia
 dystopian
 dystopias
+dz
 eBay
 eMusic
+ea
 each
 eager
 eagerer
@@ -22053,6 +22092,7 @@ ecumenicism
 ecumenism
 ecus
 eczema
+ed
 edamame
 eddied
 eddies
@@ -22260,6 +22300,7 @@ egress
 egresses
 egret
 egrets
+eh
 eider
 eiderdown
 eiderdowns
@@ -22551,6 +22592,7 @@ elver
 elvers
 elves
 elvish
+em
 emaciate
 emaciated
 emaciates
@@ -22859,6 +22901,7 @@ emulsifying
 emulsion
 emulsions
 emus
+en
 enable
 enabled
 enabler
@@ -23670,6 +23713,7 @@ equivocation
 equivocations
 equivocator
 equivocators
+er
 era
 eradicable
 eradicate
@@ -24167,6 +24211,7 @@ ewe
 ewer
 ewers
 ewes
+ex
 exabyte
 exabytes
 exacerbate
@@ -24994,6 +25039,7 @@ eyewear
 eyewitness
 eyewitnesses
 fMRI
+fa
 fab
 fable
 fabled
@@ -25846,6 +25892,7 @@ fewness
 fey
 fez
 fezzes
+ff
 fiance
 fiancee
 fiancees
@@ -26362,6 +26409,7 @@ fizzling
 fizzy
 fjord
 fjords
+fl
 flab
 flabbergast
 flabbergasted
@@ -27627,6 +27675,7 @@ foxy
 foyer
 foyers
 fps
+fr
 fracas
 fracases
 frack
@@ -28104,6 +28153,7 @@ fry
 fryer
 fryers
 frying
+ft
 ftp
 ftpers
 ftping
@@ -29619,6 +29669,7 @@ glycogen
 glycol
 glyph
 glyphs
+gm
 gnarl
 gnarled
 gnarlier
@@ -29644,6 +29695,7 @@ gnomic
 gnomish
 gnu
 gnus
+go
 goad
 goaded
 goading
@@ -29942,6 +29994,7 @@ gown
 gowned
 gowning
 gowns
+gr
 grab
 grabbed
 grabber
@@ -30631,6 +30684,7 @@ grunt
 grunted
 grunting
 grunts
+gt
 guacamole
 guanine
 guano
@@ -30954,6 +31008,7 @@ gyve
 gyved
 gyves
 gyving
+ha
 habanero
 habaneros
 habeas
@@ -31720,6 +31775,7 @@ hazings
 hazmat
 hazy
 hdqrs
+he
 head
 headache
 headaches
@@ -32311,8 +32367,10 @@ hexing
 hey
 heyday
 heydays
+hf
 hgt
 hgwy
+hi
 hiatus
 hiatuses
 hibachi
@@ -32559,6 +32617,7 @@ hives
 hiving
 hiya
 hmm
+ho
 hoagie
 hoagies
 hoard
@@ -33304,7 +33363,10 @@ howsoever
 hoyden
 hoydenish
 hoydens
+hp
+hr
 hrs
+ht
 huarache
 huaraches
 hub
@@ -33860,6 +33922,7 @@ iconography
 icons
 ictus
 icy
+id
 idea
 ideal
 idealism
@@ -33950,6 +34013,7 @@ idyll
 idyllic
 idyllically
 idylls
+if
 iffier
 iffiest
 iffiness
@@ -34604,6 +34668,7 @@ impute
 imputed
 imputes
 imputing
+in
 inabilities
 inability
 inaccessibility
@@ -36913,6 +36978,7 @@ irruption
 irruptions
 irruptive
 irrupts
+is
 ischemia
 ischemic
 isinglass
@@ -36964,6 +37030,7 @@ issuing
 isthmian
 isthmus
 isthmuses
+it
 ital
 italic
 italicization
@@ -37282,6 +37349,7 @@ jeweling
 jewelries
 jewelry
 jewels
+jg
 jib
 jibbed
 jibbing
@@ -37548,6 +37616,7 @@ joyrode
 joys
 joystick
 joysticks
+jr
 jubilant
 jubilantly
 jubilation
@@ -37722,6 +37791,7 @@ juxtaposing
 juxtaposition
 juxtapositions
 kHz
+kW
 kWh
 kabbalah
 kaboom
@@ -37779,6 +37849,7 @@ kayoing
 kayos
 kazoo
 kazoos
+kc
 kebab
 kebabs
 kedgeree
@@ -37886,6 +37957,7 @@ keystroke
 keystrokes
 keyword
 keywords
+kg
 khaki
 khakis
 khan
@@ -38107,6 +38179,7 @@ kiwi
 kiwifruit
 kiwifruits
 kiwis
+kl
 klaxon
 klaxons
 kleptocracies
@@ -38128,6 +38201,8 @@ klutzier
 klutziest
 klutziness
 klutzy
+km
+kn
 knack
 knacker
 knackered
@@ -38285,6 +38360,7 @@ kroner
 kronur
 krypton
 kryptonite
+kt
 kuchen
 kudos
 kudzu
@@ -38297,6 +38373,8 @@ kvetcher
 kvetchers
 kvetches
 kvetching
+kw
+la
 lab
 label
 labeled
@@ -38900,6 +38978,7 @@ lazing
 lazy
 lazybones
 lazying
+lb
 lbw
 lea
 leach
@@ -39336,6 +39415,7 @@ lexicography
 lexicon
 lexicons
 lexis
+lg
 liabilities
 liability
 liable
@@ -39894,10 +39974,12 @@ living
 livings
 lizard
 lizards
+ll
 llama
 llamas
 llano
 llanos
+lo
 load
 loadable
 loaded
@@ -40634,6 +40716,7 @@ lyricists
 lyrics
 lysosomal
 lysosomes
+ma
 mac
 macOS
 macabre
@@ -41776,6 +41859,7 @@ mazes
 mazurka
 mazurkas
 mdse
+me
 mead
 meadow
 meadowland
@@ -42456,7 +42540,9 @@ mezzos
 mfg
 mfr
 mfrs
+mg
 mgr
+mi
 miasma
 miasmas
 mic
@@ -43441,9 +43527,12 @@ mizzenmasts
 mizzens
 mkay
 mks
+ml
+mm
 mnemonic
 mnemonically
 mnemonics
+mo
 moan
 moaned
 moaner
@@ -44258,10 +44347,13 @@ mown
 mows
 moxie
 mozzarella
+mp
 mpg
 mph
+mt
 mtg
 mtge
+mu
 much
 mucilage
 mucilaginous
@@ -44729,6 +44821,7 @@ muzzled
 muzzles
 muzzling
 muzzy
+my
 mycologist
 mycologists
 mycology
@@ -45631,6 +45724,7 @@ nix
 nixed
 nixes
 nixing
+no
 nob
 nobble
 nobbled
@@ -46281,6 +46375,7 @@ noxious
 nozzle
 nozzles
 nth
+nu
 nuance
 nuanced
 nuances
@@ -46495,6 +46590,7 @@ oath
 oaths
 oatmeal
 oats
+ob
 obbligato
 obbligatos
 obduracy
@@ -46827,6 +46923,7 @@ oenophile
 oenophiles
 oeuvre
 oeuvres
+of
 off
 offal
 offbeat
@@ -46917,12 +47014,14 @@ ogreish
 ogres
 ogress
 ogresses
+oh
 ohm
 ohmmeter
 ohmmeters
 ohms
 oho
 ohs
+oi
 oik
 oiks
 oil
@@ -46987,6 +47086,7 @@ oligopolies
 oligopoly
 olive
 olives
+om
 ombudsman
 ombudsmen
 omega
@@ -47021,6 +47121,7 @@ omnivorous
 omnivorously
 omnivorousness
 oms
+on
 onboard
 once
 oncogene
@@ -47086,6 +47187,7 @@ oozier
 ooziest
 oozing
 oozy
+op
 opacity
 opal
 opalescence
@@ -47234,6 +47336,7 @@ opulence
 opulent
 opulently
 opus
+or
 oracle
 oracles
 oracular
@@ -48441,6 +48544,7 @@ ovulation
 ovule
 ovules
 ovum
+ow
 owe
 owed
 owes
@@ -48458,6 +48562,7 @@ owners
 ownership
 owning
 owns
+ox
 oxalate
 oxblood
 oxbow
@@ -48496,7 +48601,10 @@ oxymoron
 oxymoronic
 oyster
 oysters
+oz
 ozone
+pH
+pa
 pablum
 pabulum
 pace
@@ -49594,6 +49702,7 @@ paywall
 paywalls
 payware
 pct
+pd
 pea
 peace
 peaceable
@@ -50496,7 +50605,9 @@ pews
 pewter
 pewters
 peyote
+pf
 pfennig
+pg
 phaeton
 phaetons
 phage
@@ -50798,6 +50909,7 @@ physiotherapy
 physique
 physiques
 phytoplankton
+pi
 pianissimo
 pianissimos
 pianist
@@ -51274,9 +51386,11 @@ pizzeria
 pizzerias
 pizzicati
 pizzicato
+pk
 pkg
 pkt
 pkwy
+pl
 placard
 placarded
 placarding
@@ -51747,6 +51861,7 @@ pluvial
 ply
 plying
 plywood
+pm
 pneumatic
 pneumatically
 pneumococcal
@@ -52590,8 +52705,10 @@ powwowing
 powwows
 pox
 poxes
+pp
 ppm
 ppr
+pr
 practicability
 practicable
 practicably
@@ -54304,6 +54421,7 @@ psychotics
 psychotropic
 psychotropics
 psychs
+pt
 ptarmigan
 ptarmigans
 pterodactyl
@@ -54790,6 +54908,8 @@ pythons
 pyx
 pyxes
 pzazz
+qr
+qt
 qts
 qty
 qua
@@ -55797,6 +55917,8 @@ razzes
 razzing
 razzmatazz
 rcpt
+rd
+re
 reabsorb
 reabsorbed
 reabsorbing
@@ -59439,6 +59561,7 @@ rivulet
 rivulets
 riyal
 riyals
+rm
 roach
 roached
 roaches
@@ -59883,6 +60006,7 @@ royalties
 royalty
 rpm
 rps
+rt
 rte
 rub
 rubato
@@ -62373,6 +62497,8 @@ sexualizes
 sexualizing
 sexually
 sexy
+sf
+sh
 shabbier
 shabbiest
 shabbily
@@ -64793,6 +64919,7 @@ snuggling
 snugly
 snugness
 snugs
+so
 soak
 soaked
 soaker
@@ -66175,6 +66302,7 @@ spying
 spymaster
 spymasters
 spyware
+sq
 sqq
 squab
 squabble
@@ -66319,6 +66447,7 @@ squishing
 squishy
 sriracha
 ssh
+st
 stab
 stabbed
 stabber
@@ -69256,6 +69385,7 @@ systems
 systole
 systoles
 systolic
+ta
 tab
 tabbed
 tabbies
@@ -69822,6 +69952,7 @@ taxonomy
 taxpayer
 taxpayers
 taxpaying
+tb
 tbs
 tbsp
 tchotchke
@@ -70928,6 +71059,7 @@ thyroid
 thyroidal
 thyroids
 thyself
+ti
 tiara
 tiaras
 tibia
@@ -71278,7 +71410,9 @@ titular
 tizz
 tizzies
 tizzy
+tn
 tnpk
+to
 toad
 toadied
 toadies
@@ -71824,6 +71958,7 @@ toying
 toymaker
 toymakers
 toys
+tr
 trabecular
 trabecule
 trace
@@ -73304,6 +73439,7 @@ uglier
 ugliest
 ugliness
 ugly
+uh
 uhf
 ukase
 ukases
@@ -73352,6 +73488,7 @@ ululates
 ululating
 ululation
 ululations
+um
 umbel
 umbels
 umber
@@ -75254,6 +75391,7 @@ unzip
 unzipped
 unzipping
 unzips
+up
 upbeat
 upbeats
 upbraid
@@ -75467,6 +75605,7 @@ urologists
 urology
 ursine
 urticaria
+us
 usability
 usable
 usage
@@ -75812,6 +75951,7 @@ vaunt
 vaunted
 vaunting
 vaunts
+vb
 veal
 vector
 vectored
@@ -76669,6 +76809,7 @@ voyeurism
 voyeuristic
 voyeurs
 vroom
+vs
 vulcanization
 vulcanize
 vulcanized
@@ -77264,6 +77405,7 @@ waywardly
 waywardness
 wazoo
 wazoos
+we
 weak
 weaken
 weakened
@@ -78348,6 +78490,7 @@ wizardly
 wizardry
 wizards
 wizened
+wk
 wkly
 woad
 wobble
@@ -78829,6 +78972,7 @@ wryer
 wryest
 wryly
 wryness
+wt
 wunderkind
 wunderkinds
 wurst
@@ -78850,6 +78994,7 @@ xerox
 xeroxed
 xeroxes
 xeroxing
+xi
 xis
 xor
 xref
@@ -78861,6 +79006,7 @@ xylophone
 xylophones
 xylophonist
 xylophonists
+ya
 yacht
 yachted
 yachting
@@ -78925,6 +79071,8 @@ yawners
 yawning
 yawns
 yaws
+yd
+ye
 yea
 yeah
 yeahs
@@ -79006,6 +79154,7 @@ yipped
 yippee
 yipping
 yips
+yo
 yob
 yobbo
 yobbos
@@ -79056,6 +79205,7 @@ yowl
 yowled
 yowling
 yowls
+yr
 yrs
 ytterbium
 yttrium
