@@ -298,6 +298,7 @@ accumulates
 accumulating
 accumulation
 accumulations
+accuracies
 accuracy
 accurate
 accurately
@@ -2469,7 +2470,6 @@ bacterial
 bad
 badder
 baddest
-bade
 badge
 badger
 badgered
@@ -3260,7 +3260,6 @@ bicycled
 bicycles
 bicycling
 bid
-bidden
 bidder
 bidders
 bidding
@@ -4512,7 +4511,6 @@ brutish
 bubble
 bubbled
 bubblegum
-bubblegums
 bubbles
 bubblier
 bubbliest
@@ -10127,6 +10125,7 @@ detectable
 detected
 detecting
 detection
+detections
 detective
 detectives
 detector
@@ -11802,10 +11801,12 @@ duplicated
 duplicates
 duplicating
 duplication
+duplications
 duplicity
 durability
 durable
 duration
+durations
 duress
 during
 dusk
@@ -12346,6 +12347,7 @@ emblems
 embodied
 embodies
 embodiment
+embodiments
 embody
 embodying
 emboss
@@ -12922,6 +12924,7 @@ equestrians
 equilateral
 equilaterals
 equilibrium
+equilibriums
 equine
 equines
 equinox
@@ -16014,6 +16017,7 @@ geese
 geezer
 geezers
 geisha
+geishas
 gel
 gelatin
 gelding
@@ -16606,6 +16610,7 @@ governments
 governor
 governors
 governorship
+governorships
 governs
 gown
 gowned
@@ -16695,6 +16700,7 @@ grandstanded
 grandstanding
 grandstands
 granite
+granites
 grannies
 granny
 granola
@@ -17761,6 +17767,7 @@ heath
 heathen
 heathens
 heather
+heathers
 heating
 heats
 heave
@@ -19002,6 +19009,7 @@ immortalizing
 immortals
 immovable
 immune
+immunities
 immunity
 immunization
 immunizations
@@ -20259,6 +20267,7 @@ interning
 internist
 internists
 internment
+internments
 interns
 internship
 internships
@@ -21360,6 +21369,7 @@ ladder
 laddered
 laddering
 ladders
+laden
 ladies
 ladle
 ladled
@@ -21570,6 +21580,7 @@ laureates
 laurel
 laurels
 lava
+lavas
 lavatories
 lavatory
 lavender
@@ -23340,6 +23351,7 @@ medium
 mediums
 medley
 medleys
+meds
 meek
 meeker
 meekest
@@ -23618,6 +23630,7 @@ middles
 midget
 midgets
 midnight
+midnights
 midriff
 midriffs
 midst
@@ -23677,6 +23690,7 @@ milieus
 militancy
 militant
 militants
+militaries
 militarily
 militarism
 military
@@ -25625,6 +25639,7 @@ occasioned
 occasioning
 occasions
 occult
+occupancies
 occupancy
 occupant
 occupants
@@ -26992,6 +27007,7 @@ pathetic
 pathetically
 pathological
 pathologically
+pathologies
 pathologist
 pathologists
 pathology
@@ -28066,6 +28082,7 @@ plants
 plaque
 plaques
 plasma
+plasmas
 plaster
 plastered
 plastering
@@ -29304,6 +29321,7 @@ proffer
 proffered
 proffering
 proffers
+proficiencies
 proficiency
 proficient
 proficiently
@@ -29890,6 +29908,7 @@ purists
 puritan
 puritanical
 puritans
+purities
 purity
 purple
 purpler
@@ -30475,6 +30494,7 @@ rated
 rates
 rather
 ratification
+ratifications
 ratified
 ratifies
 ratify
@@ -30779,6 +30799,7 @@ reclaimed
 reclaiming
 reclaims
 reclamation
+reclamations
 recline
 reclined
 reclines
@@ -32899,6 +32920,7 @@ saintliest
 saintly
 saints
 sake
+sakes
 salable
 salad
 salads
@@ -33009,6 +33031,7 @@ sandpapering
 sandpapers
 sands
 sandstone
+sandstones
 sandstorm
 sandstorms
 sandwich
@@ -33600,6 +33623,7 @@ seceded
 secedes
 seceding
 secession
+secessions
 secluded
 seclusion
 second
@@ -34377,6 +34401,7 @@ shrugged
 shrugging
 shrugs
 shrunk
+shrunken
 shuck
 shucked
 shucking
@@ -36071,6 +36096,7 @@ sponsored
 sponsoring
 sponsors
 sponsorship
+sponsorships
 spontaneity
 spontaneous
 spontaneously
@@ -41327,6 +41353,7 @@ verging
 verier
 veriest
 verification
+verifications
 verified
 verifies
 verify
@@ -41411,6 +41438,7 @@ vice
 viced
 vices
 vicing
+vicinities
 vicinity
 vicious
 viciously
@@ -42659,6 +42687,7 @@ woollier
 woollies
 woolliest
 woolly
+wools
 woos
 woozier
 wooziest
@@ -42685,6 +42714,7 @@ worker
 workers
 workfare
 workforce
+workforces
 working
 workings
 workload
