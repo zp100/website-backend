@@ -6,9 +6,6 @@ const min_len = 2
 let word_list = []
 let puzzle_list = []
 
-// Word list generated from:
-// https://wordlist.aspell.net/12dicts/
-// https://app.aspell.net/create?max_size=40&spelling=US&variant_level=1&diacritic=strip&download=wordlist&encoding=utf-8&format=inline
 const word_list_path = path.join(process.cwd(), 'src/routes/pangrams/word_list.txt')
 fs.readFile(word_list_path, 'utf8', (err, data) => {
     if (err) {
@@ -19,6 +16,10 @@ fs.readFile(word_list_path, 'utf8', (err, data) => {
 
     const valid_puzzles = new Set()
     word_list.forEach((word) => {
+        if (word.endsWith('ed') || word.endsWith('es') || word.endsWith('ing')) {
+            return
+        }
+
         const letters = new Set(word.split(''))
         if (letters.size === 7) {
             const puzzle = Array.from(letters)
