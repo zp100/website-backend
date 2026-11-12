@@ -23,7 +23,7 @@ def get(file_name):
     with open(f"{folder}/{file_name}") as file:
         return set([ word.strip() for word in file.readlines() ])
 
-all_words = get('2of12inf.txt').intersection(get('esdb40.txt'))
+all_words = get('2of12inf.txt').intersection(get('esdb50.txt'))
 all_words.remove('dost')
 all_words.remove('doth')
 all_words.remove('hast')
