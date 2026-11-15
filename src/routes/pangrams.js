@@ -51,7 +51,7 @@ router.get('/define/:word', async (req, res) => {
 
     const valid_defs = defs.filter((def) => def.meta.id.split(':')[0] === word && def.category !== 'abbreviation')
     if (valid_defs.length === 0) {
-        const similar_defs = defs.filter((def) => def.meta.stems.includes(word))
+        const similar_defs = defs.filter((def) => def.meta.stems.includes(word) && def.category !== 'abbreviation')
         valid_defs.push(...similar_defs)
     }
 
