@@ -24,6 +24,9 @@ def get(file_name):
         return set([ word.strip() for word in file.readlines() ])
 
 all_words = get('3of6game.txt').intersection(get('esdb50.txt'))
+all_words.remove('dost')
+all_words.remove('doth')
+all_words.remove('hast')
 all_words.remove('hath')
 all_words.remove('shalt')
 all_words.add('pangram')
