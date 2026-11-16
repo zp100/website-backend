@@ -16,7 +16,7 @@ fs.readFile(word_list_path, 'utf8', (err, data) => {
 
     const valid_puzzles = new Set()
     word_list.forEach((word) => {
-        if (word.endsWith('ed') || word.endsWith('es') || word.endsWith('ing')) {
+        if (word.endsWith('ed') || word.endsWith('ing') || word.endsWith('s')) {
             return
         }
 
