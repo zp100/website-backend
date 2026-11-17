@@ -1,8 +1,10 @@
-# To generate 3of6game.txt:
+# To generate 2of12inf.txt:
 #   Go to https://wordlist.aspell.net/12dicts/.
 #   Download the zipped folder and extract it.
-#   Open the "International" folder and open "3of6game.txt", select all, and copy-paste into file.
+#   Open the "American" folder and open "2of12inf.txt", select all, and copy-paste into file.
 #   Delete all end-of-line symbols.
+# To generate 3of6game.txt:
+#   Same except from the "International" folder.
 # To generate esdb60.txt:
 #   Go to https://app.aspell.net/create.
 #   Uncheck "Roman Numerals".
@@ -23,7 +25,7 @@ def get(file_name):
     with open(f"{folder}/{file_name}") as file:
         return set([ word.strip() for word in file.readlines() ])
 
-all_words = get('3of6game.txt').intersection(get('esdb50.txt'))
+all_words = get('2of12inf.txt').intersection(get('3of6game.txt')).intersection(get('esdb50.txt'))
 all_words.remove('dost')
 all_words.remove('doth')
 all_words.remove('hast')
