@@ -4,7 +4,6 @@ const path = require('node:path')
 
 const min_len = 2
 let word_list = []
-let puzzle_list = []
 
 const word_list_path = path.join(process.cwd(), 'src/routes/pangrams/word_list.txt')
 fs.readFile(word_list_path, 'utf8', (err, data) => {
@@ -13,21 +12,6 @@ fs.readFile(word_list_path, 'utf8', (err, data) => {
     }
 
     word_list = data.split('\n')
-
-    const valid_puzzles = new Set()
-    word_list.forEach((word) => {
-        if (word.endsWith('ed') || word.endsWith('ing') || word.endsWith('s')) {
-            return
-        }
-
-        const letters = new Set(word.split(''))
-        if (letters.size === 7) {
-            const puzzle = Array.from(letters)
-            puzzle.sort()
-            valid_puzzles.add(puzzle.join(''))
-        }
-    })
-    puzzle_list = Array.from(valid_puzzles)
 
     console.log('/pangrams: Word list setup complete.')
 })
@@ -38,7 +22,6 @@ router.get('/word_list', (_, res) => {
     res.send({
         min_len,
         word_list,
-        puzzle_list,
     })
 })
 
