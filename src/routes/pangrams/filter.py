@@ -21,11 +21,15 @@
 
 folder = 'src/routes/pangrams/'
 
-def get(file_name):
+def get(file_name, max_len=999):
     with open(f"{folder}/{file_name}") as file:
-        return set([ word.strip() for word in file.readlines() ])
+        return { word.strip() for word in file.readlines() if len(word.strip()) <= max_len }
 
-all_words = get('2of12inf.txt').intersection(get('esdb50.txt'))
+small_words = get('esdb50.txt', max_len=5)
+common_words = get('esdb40.txt')
+dictionary_words = get('2of12inf.txt')
+
+all_words = small_words.union(common_words).intersection(dictionary_words)
 all_words.remove('dost')
 all_words.remove('doth')
 all_words.remove('hast')
